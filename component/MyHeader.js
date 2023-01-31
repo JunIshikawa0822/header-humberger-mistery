@@ -42,7 +42,7 @@ export default function MyHeader(){
           fill: '#373a47'
         },
         bmItemList: {
-          color: '#b8b7ad',
+          color: '#000000',
           padding: '0.8em'
         },
         bmItem: {

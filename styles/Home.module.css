@@ -132,9 +132,14 @@
   color: white;
   padding-top: 2em;
   font-size: 1.5rem;
-
+  text-decoration: none;
+  z-index: 1000;
 }
 
+.menu :hover
+{
+  color:#030217;
+}
 /* .kids a{
   color: white;
   list-style: none;
