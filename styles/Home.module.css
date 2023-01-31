@@ -42,17 +42,9 @@
   display: flex;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: none;
-  color: aqua;
-}
-
 .title {
-  padding-left:30px;
-  line-height: 1.15;
-  font-size: 2rem;
+  padding-left:5rem;
+  font-size:max(2.4vw,20px);
   font-weight: bold;
   text-align: center;
 }
@@ -120,7 +112,7 @@
   align-items: center;
 }
 
-.kids{
+/* .kids{
   overflow: hidden;
   float: left;
   width: 180px;
@@ -129,7 +121,7 @@
   line-height: 50px;
   margin-right: 2px;
   
-}
+} */
 
 .icon{
   padding-right: 10px;
@@ -143,7 +135,7 @@
 
 }
 
-.kids a{
+/* .kids a{
   color: white;
   list-style: none;
   text-decoration: none;
@@ -155,7 +147,7 @@
   color: aqua;
   list-style: none;
   text-decoration: none;
-}
+} */
 
 .fixed{
   display: flex;
@@ -170,14 +162,6 @@
   .header{
     display:flex;
     
-  }
-  .title{
-    font-size: 2em;
-    padding: 0;
-  }
-  .kids{
-    position: absolute;
-    display: block;
   }
 }
 
